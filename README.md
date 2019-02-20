@@ -149,7 +149,7 @@ ReactDOM.render(
   - `viewer` - `hooxigene` uses `react-state-trace` library, which is a great devtool that let's you view your app state as it changes and break it to pieces. `viewer` is a boolean flag. when explicitly set to `true`, it shows the viewer at the top right of the app. Press `shift + s` to show or hide the devtool when you use it.
 ---
 
-### Consuming the store & dispatching actions - `getState` & `getDispatch
+### Consuming the store & dispatching actions - `getState` & `getDispatch`
 ```js
 import React from 'react';
 import capitalize from 'lodash/capitalize';
