@@ -1,0 +1,47 @@
+{
+  "name": "hooxigene",
+  "version": "1.0.1",
+  "description": "An unfancy straight forward state manager for react hooks applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel src -d dist && minify dist -d dist",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "state",
+    "hooks",
+    "state management"
+  ],
+  "author": "Guy Peer",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guypeer8/hooxigene"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-minify": "^0.5.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "immer": "^2.0.0",
+    "lodash.flattendeep": "^4.4.0",
+    "lodash.isplainobject": "^4.0.6",
+    "prop-types": "^15.7.2",
+    "react-state-trace": "^1.2.3"
+  }
+}
