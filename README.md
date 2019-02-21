@@ -1,6 +1,4 @@
-# hooxigene
 ![cdbc0131-98f9-41a3-939e-07e23c1c2473](https://user-images.githubusercontent.com/13187428/53160489-bf45c080-35d0-11e9-818c-88bc234950cd.png)
-
 - An unfancy straight forward state manager for react hooks applications.
 
 ## Installation
